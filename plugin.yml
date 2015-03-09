@@ -7,7 +7,7 @@ load: POSTWORLD
 commands:
  warp:
   description: Warp to a location
-  usage: /warp <NAME> [player]
+  usage: /warp <название> [игрок]
  listwarps:
   description: List existing warps
   usage: /listwarps
@@ -18,7 +18,7 @@ commands:
  delwarp:
   permission: simplewarp.manage
   description: Delete a warp point
-  usage: /delwarp <NAME>
+  usage: ¶Удалить варп¶ /delwarp <название>
 permissions:
  simplewarp:
   default: op
